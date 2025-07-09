@@ -150,3 +150,77 @@ main section {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgb(195, 192, 192);
 }
+
+/* resume section style */
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+
+}
+
+.resume-container {
+    display: flex;
+    gap: 24px;
+
+}
+
+.experince-description {
+    color: #757575;
+    font-size: 16px;
+
+}
+
+
+
+
+.erxperince-sub-title {
+    font-size: 20px;
+    color: #757575;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.exprerince-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.resume-column {
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+
+}
+
+.resume hr {
+    margin: 30px 5px;
+}
+
+/* footer style */
+footer {
+    padding: 130px 130px;
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer-coloumn {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 40px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 24px;
+    border: none;
+}
